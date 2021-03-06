@@ -1,8 +1,11 @@
 print("Hello World!")
 
 x=int(input())
+y=int(input())
 
-if(x%2==0):
-    print("この数は偶数です。")
-else:
-    print("この数は奇数です。")
+def hoge(x,y):
+    if(x>y):
+        return(x)
+    elif(x<y):
+        return(y)
+    
